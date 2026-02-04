@@ -21,7 +21,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  overflow-x: hidden; 
+  overflow-x: hidden;
   max-width: 100vw;
 }
 
@@ -123,19 +123,20 @@ ul {
   background-repeat: no-repeat;
 }
 
-.overlay{
- position: absolute;
+.overlay {
+  position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(0 0 0 / 50%); 
-  
+  background-color: rgb(0 0 0 / 50%);
+
 }
 
-.padding{
+.padding {
   padding: var(--section-padding) 0;
 }
+
 /* End Components */
 
 /* Start Header */
@@ -789,8 +790,9 @@ header .container nav .form i {
 .skills {
   padding: var(--section-padding) 0;
 }
-.skills .testimonials, 
-.skills .ourskills{
+
+.skills .testimonials,
+.skills .ourskills {
   width: 100%;
 }
 
@@ -1018,7 +1020,7 @@ header .container nav .form i {
   .skills .container {
     flex-direction: column;
   }
-  
+
   .skills .testimonials .text {
     width: 100%;
   }
@@ -1029,112 +1031,119 @@ header .container nav .form i {
     flex-direction: column;
     text-align: center;
   }
-  
+
   .skills .testimonials .text {
     width: 100%;
   }
 }
+
 /* End-skills */
 
-.quote{
+.quote {
   background-image: url(../image/quote.jpg);
   position: relative;
-  padding: var(--section-padding); 
-  
+  padding: var(--section-padding);
+
 }
 
-.quote .container{
+.quote .container {
   position: relative;
-z-index: 2;
-}
-.quote .text{
-color: rgb(255, 255, 255);
-text-align: center;
+  z-index: 2;
 }
 
-.pricing{
-padding: var(--section-padding) 0;
+.quote .text {
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
-.pricing .container .plans{
+
+.pricing {
+  padding: var(--section-padding) 0;
+}
+
+.pricing .container .plans {
   display: grid;
   grid-template-columns: var(--grid1);
   gap: 30px;
-  
-}
-.pricing .container .plans .plan{
-text-align: center;
-background-color: rgb(252, 252, 252);
-}
-.pricing .plan .head{ 
-padding: 40px;
-border-top: 2px var(--maincoler) solid;
-border-bottom: 2px var(--maincoler) solid;
-}
-.pricing .plan .head h3{ 
-font-weight: normal;
-margin-bottom: 10px;
+
 }
 
-.pricing .plan .head span{ 
-font-size: 35px;
-font-weight: bold;
-position: relative;
+.pricing .container .plans .plan {
+  text-align: center;
+  background-color: rgb(252, 252, 252);
 }
 
-.pricing .plan .head span::before{ 
-content: "$";
-    position: absolute;
-    top: -5px;
-    left: -25px;
-    font-size: 25px;
-}
-
-.pricing .plan .head span::after{ 
-content: "/Mo";
-    position: absolute;
-    top: 25px;
-    left: 50px;
-    font-size: 15px;
-}
-
-
-.pricing .plan ul{
+.pricing .plan .head {
+  padding: 40px;
+  border-top: 2px var(--maincoler) solid;
   border-bottom: 2px var(--maincoler) solid;
 }
 
-.pricing .plan ul li{
+.pricing .plan .head h3 {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.pricing .plan .head span {
+  font-size: 35px;
+  font-weight: bold;
+  position: relative;
+}
+
+.pricing .plan .head span::before {
+  content: "$";
+  position: absolute;
+  top: -5px;
+  left: -25px;
+  font-size: 25px;
+}
+
+.pricing .plan .head span::after {
+  content: "/Mo";
+  position: absolute;
+  top: 25px;
+  left: 50px;
+  font-size: 15px;
+}
+
+
+.pricing .plan ul {
+  border-bottom: 2px var(--maincoler) solid;
+}
+
+.pricing .plan ul li {
   padding: 10px;
   position: relative;
 }
 
-.pricing .plan ul li:not(:last-child)::before{
-content: "";
-position: absolute;
-top: 35px;
-left: 50%;
-transform: translateX(-50%);
-width: 60%;
-height: 2px;
-background-color: var(--maincoler);
+.pricing .plan ul li:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 2px;
+  background-color: var(--maincoler);
 }
 
-.pricing .foot{
+.pricing .foot {
   margin: 30px;
 
 }
 
-.pricing .foot a{
-text-decoration: none;
-color: rgb(131, 89, 170);
-border: 2px solid var(--maincoler);
-padding: 10px;
+.pricing .foot a {
+  text-decoration: none;
+  color: rgb(131, 89, 170);
+  border: 2px solid var(--maincoler);
+  padding: 10px;
 }
 
-.pricing .contact-text{
+.pricing .contact-text {
   text-align: center;
   margin: 50px 0 20px;
 }
-.pricing .container .contact-link{
+
+.pricing .container .contact-link {
   display: block;
   width: fit-content;
   margin: 20px auto;
@@ -1143,16 +1152,18 @@ padding: 10px;
   background-color: var(--maincoler);
   padding: 15px;
 }
+
 /* <!-- End Pricing  --> */
 
-   /* <!-- Start Subscribe --> */
-.subscribe{
+/* <!-- Start Subscribe --> */
+.subscribe {
   background-image: url(../image/subscribe.jpg);
   padding: var(--section-padding) 0;
-    background-size: cover;
+  background-size: cover;
   position: relative;
   color: white;
 }
+
 .subscribe::before {
   content: "";
   position: absolute;
@@ -1162,28 +1173,33 @@ padding: 10px;
   height: 100%;
   background-color: rgb(0 0 0 / 50%);
 }
+
 .subscribe .container {
   position: relative;
   display: flex;
   align-items: center;
 }
+
 @media (max-width: 991px) {
   .subscribe .container {
     flex-direction: column;
   }
 }
+
 .subscribe form {
   display: flex;
   position: relative;
   width: 500px;
   max-width: 100%;
 }
+
 .subscribe form i {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   left: 25px;
 }
+
 .subscribe form input[type="email"] {
   border: 1px solid white;
   border-right: none;
@@ -1192,6 +1208,7 @@ padding: 10px;
   caret-color: var(--main-color);
   width: calc(100% - 130px);
 }
+
 .subscribe form input[type="submit"] {
   width: 130px;
   background-color: var(--main-color);
@@ -1201,71 +1218,79 @@ padding: 10px;
   border-left: none;
   text-transform: uppercase;
 }
+
 .subscribe form input[type="email"]:focus,
 .subscribe form input[type="submit"]:focus {
   outline: none;
 }
+
 .subscribe form ::placeholder {
   color: white;
 }
+
 .subscribe p {
   line-height: 2;
   margin-left: 50px;
 }
+
 @media (max-width: 991px) {
   .subscribe p {
     margin: 30px 0 0;
   }
 }
 
-.subscribe form input:last-child{
+.subscribe form input:last-child {
   color: white;
   background-color: var(--maincoler);
   padding: 11px;
 }
-      /* <!-- End Subscribe --> */
 
-      /* start Contact  */
-.contact .container .block{
-display: flex;
+/* <!-- End Subscribe --> */
+
+/* start Contact  */
+.contact .container .block {
+  display: flex;
 }
 
-.contact .container .block .input{
-width: 95%;
-margin-right: 20px;
+.contact .container .block .input {
+  width: 95%;
+  margin-right: 20px;
 }
-.contact .container .block .input form{
-display: flex;
-flex-direction: column;
-gap: 20px;
-position: relative;
+
+.contact .container .block .input form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
 }
+
 .contact .container .block .input form input[type="text"],
-.contact .container .block .input form input[type="email"]
-{
-height: 40px;
-padding: 0 0 0 10px;
+.contact .container .block .input form input[type="email"] {
+  height: 40px;
+  padding: 0 0 0 10px;
 }
-.contact .container .block .input form textarea
-{
-height: 100px;
-padding: 10px 0 0 10px;
+
+.contact .container .block .input form textarea {
+  height: 100px;
+  padding: 10px 0 0 10px;
 }
-.contact .container .block .input form input[type="submit"]{
+
+.contact .container .block .input form input[type="submit"] {
   position: absolute;
   top: 100%;
   left: 100%;
   transform: translateX(-100%);
-color: white;
-background-color: rgb(25, 200, 250);
-width: 130px;
-height: 20%;
-margin-top: 20px;
-border: none;
-text-transform: uppercase;
+  color: white;
+  background-color: rgb(25, 200, 250);
+  width: 130px;
+  height: 20%;
+  margin-top: 20px;
+  border: none;
+  text-transform: uppercase;
 }
+
 .contact .container .block .input form input:focus,
-.contact .container .block .input form textarea:focus{
+.contact .container .block .input form textarea:focus {
   outline: none;
 }
 
@@ -1273,29 +1298,32 @@ text-transform: uppercase;
 .contact .container .block .text {
   margin-bottom: 20px;
 }
+
 .contact .container .block .text h3 {
   margin-bottom: 10px;
 }
+
 .contact .container .block .text p {
   opacity: 0.5;
 }
 
 @media (max-width: 991px) {
-.contact .container .block{
-display: flex;
-flex-direction: column-reverse;
+  .contact .container .block {
+    display: flex;
+    flex-direction: column-reverse;
 
+  }
+
+  .contact .container .block .text {
+    text-align: center;
+  }
 }
-.contact .container .block .text {
-  text-align: center;
-}
-}
 
 
-      /* End Contact  */
+/* End Contact  */
 
-  
-.contact-us{
+
+.contact-us {
   background-image: url(../image/subscribe.jpg);
   padding: var(--section-padding) 0;
   background-size: cover;
@@ -1313,12 +1341,12 @@ flex-direction: column-reverse;
   background-color: rgb(0 0 0 / 50%);
 }
 
-.contact-us .container{
+.contact-us .container {
   position: relative;
   z-index: 2;
 }
 
-.contact-us .block{
+.contact-us .block {
   color: white;
   text-align: center;
   display: flex;
@@ -1326,41 +1354,40 @@ flex-direction: column-reverse;
   gap: 50px;
 }
 
-.contact-us .block .text h3{
-text-transform:uppercase ;
-position: relative;
+.contact-us .block .text h3 {
+  text-transform: uppercase;
+  position: relative;
 }
-.contact-us .block .text h3::before{
-    content: "";
-    position: absolute;
-    top: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 40%;
-    border-bottom: 2px white solid;
+
+.contact-us .block .text h3::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+  border-bottom: 2px white solid;
 }
+
 .contact-us .block .icons {
-    width: 98%;
-}
-.contact-us .block .icons i{
-padding: 0 30px;
-}
-.contact-us .block .text{
-position: relative;
+  width: 98%;
 }
 
-.contact-us .block .text p{
-position: absolute;
-top: 40px;
-left: 50%;
-transform: translateX(-50%);
-}
-.contact-us .block .text p span{
-color: rgb(25, 200, 250);
+.contact-us .block .icons i {
+  padding: 0 30px;
 }
 
+.contact-us .block .text {
+  position: relative;
+}
 
+.contact-us .block .text p {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
-
-
-
+.contact-us .block .text p span {
+  color: rgb(25, 200, 250);
+}
