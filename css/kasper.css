@@ -1030,6 +1030,7 @@ header .container nav .form i {
   .skills .testimonials .person {
     flex-direction: column;
     text-align: center;
+    margin-top: 10px;
   }
 
   .skills .testimonials .text {
